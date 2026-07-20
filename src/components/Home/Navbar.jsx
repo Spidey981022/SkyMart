@@ -2,7 +2,7 @@ import { Zap, ShoppingCart, LogOut, UserRound } from 'lucide-react';
 
 function Navbar() {
     return (
-        <div className="flex items-center justify-around p-5 w-screen bg-transparent text-sm">
+        <div className="flex items-center justify-around p-5 w-full bg-transparent text-sm sticky">
             <div className="logo flex gap-1 font-syne font-extrabold">
                 <Zap className='bg-[#C8F400] text-black rounded p-0.5'/>
                 <h1>Sky<span className= 'text-[#C8F400]'>Mart</span></h1>

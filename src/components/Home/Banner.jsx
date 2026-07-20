@@ -2,9 +2,9 @@ import { ArrowRight, Package, TrendingUp, Star, Tag } from 'lucide-react';
 
 function Banner(){
     return (
-        <div className='w-screen flex flex-col items-center mt-10'>
+        <div className='w-full flex flex-col items-center mt-10'>
             <div className='banner-container bg-[#111111] border border-white rounded-4xl w-[75%] h-[350px] p-8 flex justify-between'>
-                <div className='flex flex-col gap-5 w-[40%]'>
+                <div className='flex flex-col gap-5 w-[50%]'>
                     <div className="day-display text-[#89B005] text-sm"><p>GOOD EVENING 👋</p></div>
                     <div className="greeting text-6xl font-bold font-syne">
                         <h1>Welcome back,<br/> <span className='name text-[#C8F400]'>Tarun!</span></h1>
